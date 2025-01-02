@@ -1,0 +1,7 @@
+# Request (client sends this)
+int32 interval  # Interval in milliseconds
+
+---
+# Response (sensor responds with this)
+bool success  # Whether the sensor was started successfully
+string message  # A message explaining the result (optional)
